@@ -1,0 +1,16 @@
+Source: sphinxjp.themes.revealjs
+Maintainer: Johan Van de Wauw <johan@gisky.be>
+Section: science
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.1.4
+Homepage: https://github.com/tell-k/sphinxjp.themes.revealjs
+
+Package: sphinxjp.themes.revealjs
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         dh-python
+Description: Reveal.js style presentation theme for Sphinx
+ 
+

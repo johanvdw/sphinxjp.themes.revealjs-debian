@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sphinxjp.themes.revealjs
+Source: <path_to_download>
+
+Files: *
+Copyright: 20xx-20yy, <upstream>
+License: <license>
+
+Files: debian/*
+Copyright: 2013, Johan Van de Wauw <johan@gisky.be>
+License: <license>
