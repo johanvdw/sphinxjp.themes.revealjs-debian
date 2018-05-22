@@ -3,8 +3,12 @@ Maintainer: Johan Van de Wauw <johan@gisky.be>
 Section: science
 Priority: optional
 Build-Depends: debhelper (>= 9),
-               python3-all,
+               python-all,
                dh-python,
+               python-setuptools,
+               python-sphinx,
+               python-mock,
+               python-pytest
 Standards-Version: 4.1.4
 Homepage: https://github.com/tell-k/sphinxjp.themes.revealjs
 

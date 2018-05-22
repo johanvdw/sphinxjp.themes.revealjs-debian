@@ -1,0 +1,11 @@
+--- sphinxjp.themes.revealjs-0.3.0.orig/src/sphinxjp/themes/revealjs/directives.py
++++ sphinxjp.themes.revealjs-0.3.0/src/sphinxjp/themes/revealjs/directives.py
+@@ -10,7 +10,7 @@
+ from docutils.parsers.rst import directives
+ from docutils.parsers.rst.roles import set_classes
+ 
+-from sphinx.util.compat import Directive
++from sphinx.themes.revealjs import Directive
+ 
+ from sphinxjp.themes.revealjs import compat
+ 
