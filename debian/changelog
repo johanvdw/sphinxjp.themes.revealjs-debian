@@ -1,5 +1,5 @@
-sphinxjp.themes.revealjs (0.3.0-1) UNRELEASED; urgency=medium
+sphinxjp.themes.revealjs (0.3.0-1) bionic; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release for OSGeo-Live
  
- -- Johan Van de Wauw <johan@gisky.be>  Fri, 23 Mar 2018 08:06:51 +0100
+ -- Johan Van de Wauw <johan@gisky.be>  Tue, 22 May 2018 08:58:23 +0200
