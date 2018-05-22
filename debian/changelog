@@ -1,3 +1,9 @@
+sphinxjp.themes.revealjs (0.3.0-2) bionic; urgency=medium
+
+  * Fix build-deps
+
+ -- Johan Van de Wauw <johan@gisky.be>  Tue, 22 May 2018 17:32:59 +0200
+
 sphinxjp.themes.revealjs (0.3.0-1) bionic; urgency=medium
 
   * Initial release for OSGeo-Live
