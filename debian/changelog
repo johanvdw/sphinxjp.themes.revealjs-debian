@@ -1,3 +1,15 @@
+sphinxjp.themes.revealjs (0.3.0-4) UNRELEASED; urgency=medium
+
+  * Fix build on python3
+
+ -- Johan Van de Wauw <johan@gisky.be>  Wed, 20 Jun 2018 19:50:09 +0200
+
+sphinxjp.themes.revealjs (0.3.0-3) bionic; urgency=medium
+
+  * Disable tests (failing on sid/bionic)
+
+ -- Johan Van de Wauw <johan@gisky.be>  Wed, 20 Jun 2018 19:44:47 +0200
+
 sphinxjp.themes.revealjs (0.3.0-2) bionic; urgency=medium
 
   * Fix build-deps
