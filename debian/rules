@@ -3,4 +3,24 @@
 export PYBUILD_DISABLE=test
 
 %:
-	dh $@ --with python3 --buildsystem pybuild
+	dh $@ --with python2,python3 --buildsystem pybuild
+
+ 
+override_dh_python2:
+	dh_python2 --recommends=sphinx
+
+override_dh_python3:
+	dh_python3 --recommends=sphinx
+ 
+override_dh_link:
+	rm -rf $(PY2_PATH)/static $(PY3_PATH)/static
+	set -ex; for d in `cd sphinx_rtd_theme; find static -type d`; do \
+	  mkdir $(PY2_PATH)/$$d; \
+	 mkdir $(PY3_PATH)/$$d; \
+	done
+	set -ex; for f in `cd sphinxjp.theme.revealjs; find static -type f`; do \
+	  ln -s /usr/share/sphinxjp.theme.revealjs/$$f $(PY2_PATH)/$$f; \
+	  ln -s /usr/share/sphinxjp.theme.revealjs/$$f $(PY3_PATH)/$$f; \
+	done
+	dh_link
+

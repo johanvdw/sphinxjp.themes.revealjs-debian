@@ -4,18 +4,31 @@ Section: science
 Priority: optional
 Build-Depends: debhelper (>= 9),
                python-all,
+               python3-all,
                dh-python,
                python-setuptools,
+               python3-setuptools,
                python-sphinx,
                python-mock,
                python-pytest
 Standards-Version: 4.1.4
 Homepage: https://github.com/tell-k/sphinxjp.themes.revealjs
 
-Package: sphinxjp.themes.revealjs
+# Package: sphinxjp.themes.revealjs-common
+# Architecture: any
+# Depends: ${shlibs:Depends},
+#          ${misc:Depends},
+# Description: Reveal.js style presentation theme for Sphinx
+#  
+
+Package: python-sphinxjp.themes.revealjs
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-Description: Reveal.js style presentation theme for Sphinx
- 
+Description: Reveal.js style presentation theme for Sphinx (Python 2)
 
+Package: python3-sphinxjp.themes.revealjs
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: Reveal.js style presentation theme for Sphinx (Python 3)
