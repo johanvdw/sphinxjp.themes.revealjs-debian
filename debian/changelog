@@ -1,3 +1,9 @@
+sphinxjp.themes.revealjs (0.3.0-5) bionic; urgency=medium
+
+  * Make sure all files are included in package
+
+ -- Johan Van de Wauw <johan@gisky.be>  Thu, 19 Jul 2018 22:52:23 +0200
+
 sphinxjp.themes.revealjs (0.3.0-4) bionic; urgency=medium
 
   * Fix build on python3
