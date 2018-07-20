@@ -5,7 +5,7 @@
  from docutils.parsers.rst.roles import set_classes
  
 -from sphinx.util.compat import Directive
-+from sphinx.themes.revealjs import Directive
++from docutils.parsers.rst import Directive
  
  from sphinxjp.themes.revealjs import compat
  

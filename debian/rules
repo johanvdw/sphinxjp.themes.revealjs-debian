@@ -1,10 +1,9 @@
 #!/usr/bin/make -f
 
 export PYBUILD_DISABLE=test
-export PYBUILD_NAME=sphinxjp.theme.revealjs
 
 %:
-	dh $@ --with python2,python3 --buildsystem pybuild
+	dh $@ --with python2,python3 --buildsystem=pybuild
 
  
 override_dh_python2:
